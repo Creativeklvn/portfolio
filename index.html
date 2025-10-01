@@ -92,7 +92,7 @@ solutions that will help your brand stand out and succeed.</h1>
     <!-- Project 1 -->
     <div class="project-card">
       <div class="banner">
-        <img src="./scr/images/acc.png" alt="Internet Banking Logo">
+        <img src="./scr/images/ba.jpg" alt="Internet Banking Logo">
       </div>
       <h2>Internet Banking</h2>
       <p class="desc">A web app built for internet banking.</p>
@@ -111,7 +111,9 @@ solutions that will help your brand stand out and succeed.</h1>
     <!-- Project 2 -->
     <div class="project-card">
       <div class="banner">
+        
         <img src="./scr/images/delivery.jpg" alt="Fast Delivery Logo">
+        </a>
       </div>
       <h2>Fast Delivery</h2>
       <p class="desc">A web app built for booking ride for dispatch delivery.</p>
@@ -223,6 +225,11 @@ solutions that will help your brand stand out and succeed.</h1>
 
     </section>
 
+    <div id="lightbox">
+  <span class="close">&times;</span>
+  <img id="lightbox-img" src="">
+</div>
+
 <section id="section-five">
             <div class="about-container">
     <div class="about-text">
@@ -286,5 +293,33 @@ solutions that will help your brand stand out and succeed.</h1>
         </section>
         
      </main>
+
+
+<script>
+  const images = document.querySelectorAll('img'); // all images
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  const closeBtn = document.querySelector('#lightbox .close');
+
+  images.forEach(img => {
+    img.addEventListener('click', () => {
+      lightbox.style.display = 'block';
+      lightboxImg.src = img.src;
+    });
+  });
+
+  // Close lightbox
+  closeBtn.onclick = () => {
+    lightbox.style.display = 'none';
+  };
+
+  // Close when clicking outside image
+  lightbox.onclick = (e) => {
+    if (e.target === lightbox) {
+      lightbox.style.display = 'none';
+    }
+  };
+</script>
+
 </body>
 </html>

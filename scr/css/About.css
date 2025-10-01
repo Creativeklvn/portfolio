@@ -399,13 +399,13 @@ background: linear-gradient(
   display: flex;
   flex-wrap: wrap;        /* allows wrapping on smaller screens */
   justify-content: center; /* center align horizontally */
-  gap: 2rem;               /* spacing between cards */
+  gap: 6rem;               /* spacing between cards */
   margin-top: 2rem;
 }
 
 .project-card {
-  flex: 1 1 300px;         /* grow/shrink but not smaller than 300px */
-  max-width: 520px;
+  flex: 1 1 500px;         /* grow/shrink but not smaller than 300px */
+  max-width: 1000px;
   background: #fff;
   border-radius: 12px;
   padding: 1.5rem;
@@ -415,7 +415,7 @@ background: linear-gradient(
 
 .project-card h2{
   color: #000000;
-  font-size: 23px;
+  font-size: 33px;
 }
 
 .project-card p{
@@ -437,8 +437,8 @@ background: linear-gradient(
   background: #062758;
   padding: 4px 8px;
   border-radius: 6px;
-  font-size: 1.2rem;
-  margin-right: 6px;
+  font-size: 1.92rem;
+  margin-right: 16px;
 }
 
 .buttons {
@@ -449,7 +449,7 @@ background: linear-gradient(
   text-decoration: none;
   padding: 8px 12px;
   border-radius: 6px;
-  font-size: 1.2rem;
+  font-size: 1.92rem;
   margin-right: 8px;
   display: inline-block;
 }
@@ -462,4 +462,46 @@ background: linear-gradient(
 .buttons .live {
   background: #007BFF;
   color: #fff;
+}
+
+
+
+
+/* Lightbox overlay */
+#lightbox {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  padding: 20px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: rgba(0,0,0,0.9);
+  text-align: center;
+}
+
+/* Enlarged image */
+#lightbox img {
+  max-width: 90%;
+  max-height: 80vh;
+  margin-top: 5%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255,255,255,0.3);
+}
+
+/* Close button */
+#lightbox .close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#lightbox .close:hover {
+  color: #bbb;
 }
