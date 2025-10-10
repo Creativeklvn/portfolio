@@ -72,71 +72,14 @@ background: linear-gradient(
         color: black;
 }
 
-/* Hamburger Icon */
-.toggle {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-  gap: 8px;
-  
-}
 
-.toggle span {
-  height: 5px;
-  width: 55px;
-  background: #fff;
-  transition: 0.3s;
-  
-}
 
 /* Mobile View */
 @media (max-width: 1068px) {
   .toggle {
     display: flex;
   }
-  .header {
-    padding: 40px;
-  }
 
-
-  .navbar {
-  flex-direction: column;
-    position: absolute;
-    top: 105px;
-    right: 0;          /* ✅ Move navbar to the right side */
-    left: auto;        /* ✅ Disable the left alignment */
-    width: 30%;
-    background: linear-gradient(
-    270deg,
-    rgb(0, 38, 82) 0%);
-    text-align: right;
-    display: none;
-    padding: 30px;     /* Optional: adds space inside the menu */
-    z-index: 000;  /* Ensure it appears above other content */
-    
-  }
-
-  .navbar.open {
-    display: flex;
-    
-  }
-
-  .navbar a {
-    padding: 5px 0;
-    border-bottom: 1px solid #3f4047;
-    font-size: 1.6rem;
-  }
-
-  .toggle.active span:nth-child(1) {
-    transform: rotate(45deg) translateY(8px);
-  }
-  .toggle.active span:nth-child(2) {
-    opacity: 0;
-  }
-  .toggle.active span:nth-child(3) {
-    transform: rotate(-45deg) translateY(-8px);
-  }
-}
 
 
 
