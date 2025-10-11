@@ -338,7 +338,22 @@ function toggleMenu() {
   navbar.classList.toggle('open');
   toggle.classList.toggle('active');
 }
+
+// ✅ Close navbar when any link is clicked
+document.addEventListener('DOMContentLoaded', () => {
+  const navLinks = document.querySelectorAll('.navbar a');
+  const navbar = document.querySelector('.navbar');
+  const toggle = document.querySelector('.toggle');
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      navbar.classList.remove('open');
+      toggle.classList.remove('active');
+    });
+  });
+});
 </script>
+
 
 
 
