@@ -12,10 +12,15 @@
       <img src="./scr/images/logo.webp" alt="logo">
     </a>
 
-    
+    <!-- Hamburger toggle button -->
+    <div class="toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
 
     <!-- Navigation menu -->
-    <nav class="navbar">
+    <nav class="navbar" id="navbar">
       <a href="#section-one">Home</a>
       <a href="#section-skill">Skills</a>
       <a href="#projects">Projects</a>
@@ -327,13 +332,14 @@ solutions that will help your brand stand out and succeed.</h3>
 
 <!------DARK MOOD-->
 <script>
-  function toggleMenu() {
-    const navbar = document.getElementById('navbar');
-    const toggle = document.querySelector('.toggle');
-    navbar.classList.toggle('open');
-    toggle.classList.toggle('active');
-  }
+function toggleMenu() {
+  const navbar = document.querySelector('.navbar');
+  const toggle = document.querySelector('.toggle');
+  navbar.classList.toggle('open');
+  toggle.classList.toggle('active');
+}
 </script>
+
 
 
 
