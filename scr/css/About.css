@@ -72,13 +72,79 @@ background: linear-gradient(
         color: black;
 }
 
+/* Hamburger Icon */
+.toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 8px;
+  
+}
 
+.toggle span {
+  height: 5px;
+  width: 55px;
+  background: #fff;
+  transition: 0.3s;
+  
+}
 
 /* Mobile View */
 @media (max-width: 1068px) {
   .toggle {
     display: flex;
+    z-index: 1001;
   }
+
+  .header {
+    padding: 2rem;
+    z-index: 1000;
+  }
+
+
+  .navbar {
+    position: fixed;
+
+    top: 135px;
+    right: 0;           /* Navbar slides in from right */
+    left: auto;
+    width: 20%;
+    background: rgb(0, 38, 82);
+
+    text-align: right;
+    flex-direction: column;
+    padding: 30px;
+    display: none;      /* Hidden by default */
+    z-index: 9999;      /* ✅ Keep it above everything */
+  }
+
+  .navbar.open {
+    display: flex;      /* ✅ Visible when toggle adds `.open` */
+  }
+
+  .navbar a {
+    padding: 10px 0;
+    border-bottom: 1px solid #3f4047;
+    font-size: 1.8rem;
+    color: #fff;
+    
+  }
+
+  .navbar a:hover {
+    color: #ccc;
+  }
+
+  /* Toggle animation */
+  .toggle.active span:nth-child(1) {
+    transform: rotate(45deg) translateY(8px);
+  }
+  .toggle.active span:nth-child(2) {
+    opacity: 0;
+  }
+  .toggle.active span:nth-child(3) {
+    transform: rotate(-45deg) translateY(-8px);
+  }
+}
 
 
 
