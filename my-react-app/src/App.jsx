@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../src/css/About.css";
+import ContactForm from "./ContactForm";
+import Gallery from "./Gallery"; // add at the top
 
 
 function App() {
@@ -162,18 +164,20 @@ function Portfolio() {
             <p className="desc">A fintech app built for internet banking.</p>
             <div className="tags">
               <span>HTML</span>
+              <span>Prototype</span>
               <span>CSS</span>
+              <span>Figma</span>
               <span>JavaScript</span>
             </div>
             <div className="buttons">
               <a
-                href="https://github.com/Creativeklvn/Internet-Banking"
+                href="https://www.figma.com/proto/v2C4ZcTA90f13NNMlpYop3/Untitled?page-id=0%3A1&node-id=90-31&p=f&viewport=375%2C387%2C0.11&t=toLqogNKDjgQoCBv-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=90%3A26"
                 className="github"
               >
                 Github
               </a>
               <a
-                href="https://creativeklvn.github.io/Internet-Banking/scr/html/home.html"
+                href="https://www.figma.com/proto/v2C4ZcTA90f13NNMlpYop3/Untitled?page-id=0%3A1&node-id=90-31&p=f&viewport=375%2C387%2C0.11&t=toLqogNKDjgQoCBv-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=90%3A26"
                 className="live"
               >
                 View Live
@@ -195,6 +199,35 @@ function Portfolio() {
             <div className="buttons">
               <a
                 href="https://www.figma.com/proto/PaeHWshARGoYP1gknROoFY/Fast-Delivery-Dispatch?node-id=0-1&t=XbysMYxhQXDGUoKF-1"
+                className="live"
+              >
+                View Live
+              </a>
+            </div>
+          </div>
+
+
+          <div className="project-card">
+            <div className="banner">
+              <img
+                src="/images/look.png"
+                alt="User Authentication Screen"
+              />
+            </div>
+            <h2>My Look</h2>
+            <p className="desc">
+              My Look is a go-to web app for effortless photo editing.
+Style your images in seconds with intuitive tools, all while keeping your data safe and secure.
+            </p>
+            <div className="tags">
+              <span>Figma</span>
+              <span>React</span>
+              <span>Javascript</span>
+              <span>evn</span>
+            </div>
+            <div className="buttons">
+              <a
+                href="https://stylemylook.netlify.app/"
                 className="live"
               >
                 View Live
@@ -229,35 +262,11 @@ function Portfolio() {
             </div>
           </div>
         </div>
+        
       </section>
 
       <section id="section-four">
-        <div className="touch">
-          {[
-            "222.png",
-            "23.png",
-            "24.png",
-            "kfkf.png",
-            "22.png",
-            "3.JPG",
-            "4.webp",
-            "18.jpg",
-            "5.webp",
-            "7.jpg",
-            "8.jpg",
-            "17.jpg",
-            "2.jpg",
-            "11.png",
-            "12.jpg",
-            "14.jpg",
-            "15.jpg",
-            "16.jpg",
-          ].map((img, i) => (
-            <div className="box" key={i}>
-              <img src={`/images/works/${img}`} alt="" />
-            </div>
-          ))}
-        </div>
+        <Gallery />
       </section>
 
       <div id="lightbox">
@@ -297,7 +306,7 @@ function Portfolio() {
               <img src="/images/be.png" alt="Behance" />
             </div>
           </a>
-          <a href="https://www.instagram.com/creativeklvn">
+          <a href="https://www.instagram.com/kelvinuneze">
             <div className="reach-out">
               <img src="/images/insta.png" alt="Instagram" />
             </div>
@@ -319,6 +328,11 @@ function Portfolio() {
             <a href="mailto:kelvinuneze@gmail.com">kelvinuneze@gmail.com</a>
           </h3>
         </div>
+                {/* ✅ Add Contact Form before footer */}
+        
+          <ContactForm />
+        
+      
       </section>
 
       <section id="section-seven">
