@@ -1,0 +1,92 @@
+.services {
+  padding: 80px 10%;
+  background: #f5f8ff;
+  color: rgb(22, 22, 22);
+font-family: "Inter", Arial, sans-serif;
+  text-align: center;
+}
+
+.services-title {
+  
+  margin-bottom: 10px;
+   font-size: 2rem;
+  color: #003f88;
+}
+
+.services-subtitle {
+  color: #575757;
+  max-width: auto;
+  margin: 0 auto 50px;
+  font-size: 1.1rem;
+  
+}
+
+.services-grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.service-card {
+  background: #edf1fd;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: left;
+  transition: 0.3s ease;
+}
+
+.service-card h3 {
+  color: #131313;
+  margin-bottom: 10px;
+  
+}
+
+.service-card p {
+  color: #777777;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.service-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.service-card li {
+  font-size: 1rem;
+  padding: 1px 0;
+  color: #0f0f0f;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .services {
+    padding: 60px 5%;
+  }
+}
+.service-icon {
+  font-size: 40px;
+  color: #111111;
+}
+
+.skills-list {
+  list-style: none; /* remove default bullets */
+  padding: 0;
+  margin-top: 20px;
+}
+
+.skills-list li {
+  position: relative;
+  padding-left: 25px;
+  font-size: 1rem;
+  color: #0f0f0f;
+}
+
+.skills-list li::before {
+  content: "➤"; /* arrow bullet */
+  position: absolute;
+  left: 0;
+  color: #000000;
+}
+
+
