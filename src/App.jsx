@@ -373,7 +373,7 @@ Style your images in seconds with intuitive tools, all while keeping your data s
 
       <section id="section-seven">
         <div className="end">
-          <p>Copyright © 2026 Kelvin Uneze (All Rights Reserved)</p>
+          <p>Copyright © 2025 Kelvin Uneze (All Rights Reserved)</p>
         </div>
       </section>
     </main>
