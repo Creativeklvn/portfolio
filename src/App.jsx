@@ -104,7 +104,7 @@ function Portfolio() {
         </h1>
         <h3>
           Visual Artist <br />
-          Graphic Designer <br /> UI/UX Designer <br /> Frontend Developer
+          Graphic Designer <br /> UI/UX Designer <br /> Technical Writer <br />Frontend Developer
         </h3>
       </section>
 
@@ -302,7 +302,7 @@ Style your images in seconds with intuitive tools, all while keeping your data s
             <h4>Discover My Story</h4>
             <p>
                        I’m a passionate and versatile <b>Graphic Designer, 
-          UI/UX Designer, and Frontend Developer</b> {}
+          UI/UX Designer, Technical Writer and Frontend Developer</b> {}
          with a strong focus on creating visually appealing, 
          user-friendly, and responsive digital experiences, 
          leveraging artistic and design talents in contributing 
