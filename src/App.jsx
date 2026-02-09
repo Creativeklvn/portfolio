@@ -329,10 +329,10 @@ Style your images in seconds with intuitive tools, all while keeping your data s
           <ContactForm />
         
       <div className="touc">
-          <a href="https://www.behance.net/kelvinuneze">
+          <a href="https://github.com/Creativeklvn">
             <div className="reach-out">
                   <img 
-      src={`${process.env.PUBLIC_URL}/images/be.png`} 
+      src={`${process.env.PUBLIC_URL}/images/git.png`} 
       alt="X (Twitter)" 
     />
             </div>
