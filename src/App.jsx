@@ -134,6 +134,7 @@ function Portfolio() {
             <div className="skill-box">evn</div>
             <div className="skill-box">Cloud-Native & DevOps</div>
             <div className="skill-box">Kubernetes</div>
+            <div className="skill-box">Technical Writing</div>
             <div className="skill-box">Docker</div>
             <div className="skill-box">Figma</div>
             <div className="skill-box">CorelDraw</div>
@@ -353,7 +354,7 @@ Style your images in seconds with intuitive tools, all while keeping your data s
     />
             </div>
           </a>
-          <a href="https://x.com/creativeklvn">
+          <a href="https://x.com/creative_klvn">
             <div className="reach-out">
                   <img 
       src={`${process.env.PUBLIC_URL}/images/X.webp`} 

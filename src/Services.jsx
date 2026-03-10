@@ -3,6 +3,7 @@ import "./Services.css";
 import { FiLayout } from "react-icons/fi";
 import { MdBrush } from "react-icons/md";
 import { FaCode } from "react-icons/fa";
+import { FaPenNib  } from "react-icons/fa";
 
 export default function Services() {
   return (
@@ -62,6 +63,22 @@ export default function Services() {
             <li>Cloud-Native & DevOps Technologies: Kubernetes and Docker</li>
           </ul>
         </div>
+
+        <div className="service-card">
+  <FaPenNib  className="service-icon" />
+  <h3>Technical Writing</h3>
+  <p>
+    Creating clear, structured, and developer-focused documentation that helps
+    users understand complex systems, APIs, and software workflows.
+  </p>
+  <ul className="skills-list">
+    <li>API and developer documentation</li>
+    <li>Open-source documentation contributions</li>
+    <li>Tutorials and how-to guides</li>
+    <li>Open-source documentation</li>
+    <li>Documentation for cloud-native technologies</li>
+  </ul>
+</div>
 
       </div>
     </section>
