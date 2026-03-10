@@ -22,6 +22,7 @@ const Gallery = () => {
     "2.jpg",
     "11.png",
     "12.jpg",
+    "20.jpg",
     "14.jpg",
     "15.jpg",
     "16.jpg",
