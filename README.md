@@ -1,16 +1,35 @@
-# React + Vite
+# 🌐 My Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio! I'm a passionate and versatile creative professional with experience in **web development, UI/UX design, technical writing, and graphic design**.
 
-Currently, two official plugins are available:
+> *Building experiences through code, design, and storytelling.*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Visit Website
+https://kelvinuneze.netlify.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## About Me
+I’m a multidisciplinary creator who blends code, design, and communication to solve real-world problems. My work focuses on creating seamless user experiences and clean, maintainable solutions.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Skills
+- **Frontend Development:** React, JavaScript, HTML, CSS  
+- **UI/UX Design:** Figma, User Research, Wireframing, Prototyping  
+- **Technical Writing:** Documentation, Tutorials, API Guides  
+- **Graphic Design:** Branding, Visual Design, Layout Design  
+
+---
+
+## Features
+- Responsive and modern design  
+- Smooth animations using AOS  
+- Clean and intuitive user interface  
+- Project showcase section  
+- Contact and social links  
+
+## Contact
+Email: kelvinuneze@gmail.com
