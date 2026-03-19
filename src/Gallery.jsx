@@ -6,6 +6,7 @@ const Gallery = () => {
 
   const images = [
     "222.png",
+    "02.png",
     "23.png",
     "24.png",
     "01.jpg",

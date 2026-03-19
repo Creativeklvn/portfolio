@@ -205,6 +205,32 @@ function Portfolio() {
             </div>
           </div>
 
+<div className="project-card">
+            <div className="banner">
+                                            <img 
+      src={`${process.env.PUBLIC_URL}/images/troxx.png`} 
+      alt="Troxx (img)" 
+    />
+            </div>
+            <h2>Troxx</h2>
+            <p className="desc">Troxx is a crypto and gift card exchange platform 
+              that allows users to buy, sell, and trade cryptocurrencies and gift cards quickly and securely.</p>
+            <div className="tags">
+              <span>Crypto</span>
+              <span>Trading</span>
+              <span>javascript</span>
+              <span>React</span>
+            </div>
+            <div className="buttons">
+              <a
+                href="https://troxx.vercel.app/"
+                className="live"
+              >
+                Visit website
+              </a>
+            </div>
+          </div>
+
           <div className="project-card">
             <div className="banner">
                                             <img 
