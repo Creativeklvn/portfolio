@@ -121,7 +121,7 @@ function Portfolio() {
       <section id="section-skill">
         <div className="skills-section">
           <h2>Skills</h2>
-          <div className="skills-container"data-aos="fade-up"data-aos-duration="1000">
+          <div className="skills-container"data-aos="fade-up"data-aos-duration="700">
             <div className="skill-box">Digital Art</div>
             <div className="skill-box">Logo Design</div>
             <div className="skill-box">Product Design</div>
@@ -322,7 +322,7 @@ Style your images in seconds with intuitive tools, all while keeping your data s
       </div>
 
       <section id="section-five">
-        <div className="about-container"data-aos="fade-up"data-aos-duration="1000">
+        <div className="about-container"data-aos="fade-up"data-aos-duration="700">
 
           <div className="about-text">
             <h2>About</h2>
