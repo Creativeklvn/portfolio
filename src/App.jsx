@@ -173,7 +173,7 @@ function Portfolio() {
         </p>
 
         <div className="projects-container">
-          <div className="project-card">
+          <div className="project-card"data-aos="flip-right"data-aos-duration="200">
             <div className="banner">
                                             <img 
       src={`${process.env.PUBLIC_URL}/images/ba.jpg`} 
@@ -205,7 +205,7 @@ function Portfolio() {
             </div>
           </div>
 
-<div className="project-card">
+<div className="project-card"data-aos="flip-right"data-aos-duration="400">
             <div className="banner">
                                             <img 
       src={`${process.env.PUBLIC_URL}/images/troxx.png`} 
@@ -231,7 +231,7 @@ function Portfolio() {
             </div>
           </div>
 
-          <div className="project-card">
+          <div className="project-card"data-aos="flip-right"data-aos-duration="600">
             <div className="banner">
                                             <img 
       src={`${process.env.PUBLIC_URL}/images/delivery.jpg`} 
@@ -256,7 +256,7 @@ function Portfolio() {
           </div>
 
 
-          <div className="project-card">
+          <div className="project-card"data-aos="flip-right"data-aos-duration="400">
             <div className="banner">
                               <img 
       src={`${process.env.PUBLIC_URL}/images/look.png`} 
@@ -284,7 +284,7 @@ Style your images in seconds with intuitive tools, all while keeping your data s
             </div>
           </div>
 
-          <div className="project-card">
+          <div className="project-card"data-aos="flip-right"data-aos-duration="600">
             <div className="banner">
                               <img 
       src={`${process.env.PUBLIC_URL}/images/star.jpg`} 
