@@ -71,12 +71,12 @@ function Portfolio() {
     <main>
       <section id="section-one">
         <header className="header">
-          <a href="#" className="logo">
-                                          <img 
-      src={`${process.env.PUBLIC_URL}/images/logo.webp`} 
-      alt="logo (img)" 
-    />
-          </a>
+          <div className="logo">
+  <img 
+    src={`${process.env.PUBLIC_URL}/images/logo.webp`} 
+    alt="logo" 
+  />
+</div>
 
           {/* Hamburger toggle button */}
           <div className="toggle" onClick={toggleMenu}>
