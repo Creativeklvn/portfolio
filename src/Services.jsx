@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Services.css";
 import { FiLayout } from "react-icons/fi";
 import { MdBrush } from "react-icons/md";
