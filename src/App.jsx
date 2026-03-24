@@ -191,16 +191,10 @@ function Portfolio() {
             </div>
             <div className="buttons">
               <a
-                href="https://bankwithkelvin.netlify.app/"
-                className="github"
-              >
-                Visit website
-              </a>
-              <a
                 href="https://www.figma.com/proto/v2C4ZcTA90f13NNMlpYop3/Untitled?page-id=0%3A1&node-id=90-31&p=f&viewport=375%2C387%2C0.11&t=toLqogNKDjgQoCBv-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=90%3A26"
                 className="live"
               >
-                View Live
+                View project
               </a>
             </div>
           </div>
@@ -226,7 +220,7 @@ function Portfolio() {
                 href="https://troxx.vercel.app/"
                 className="live"
               >
-                Visit website
+                Visit project
               </a>
             </div>
           </div>
@@ -250,7 +244,7 @@ function Portfolio() {
                 href="https://www.figma.com/proto/PaeHWshARGoYP1gknROoFY/Fast-Delivery-Dispatch?node-id=0-1&t=XbysMYxhQXDGUoKF-1"
                 className="live"
               >
-                View Live
+                View project
               </a>
             </div>
           </div>
@@ -279,7 +273,7 @@ Style your images in seconds with intuitive tools, all while keeping your data s
                 href="https://stylemylook.netlify.app/"
                 className="live"
               >
-                Visit website
+                Visit project
               </a>
             </div>
           </div>
@@ -304,7 +298,7 @@ Style your images in seconds with intuitive tools, all while keeping your data s
                 href="https://starlifemovies.vercel.app/"
                 className="live"
               >
-                Visit website
+                Visit project
               </a>
             </div>
           </div>
