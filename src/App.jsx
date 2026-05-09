@@ -131,7 +131,7 @@ function Portfolio() {
             <div className="skill-box">CSS</div>
             <div className="skill-box">HTML</div>
             <div className="skill-box">JavaScript</div>
-            <div className="skill-box">evn</div>
+            <div className="skill-box">Helm</div>
             <div className="skill-box">Cloud-Native & DevOps</div>
             <div className="skill-box">Kubernetes</div>
             <div className="skill-box">Technical Writing</div>
