@@ -122,7 +122,7 @@ function Portfolio() {
         <div className="skills-section">
           <h2>Skills</h2>
           <div className="skills-container"data-aos="fade-up"data-aos-duration="700">
-            <div className="skill-box">Cloud-Native & DevOps</div>
+            <div className="skill-box">DevOps</div>
             <div className="skill-box">Kubernetes</div>
             <div className="skill-box">Technical Writing</div>
             <div className="skill-box">Docker</div>
@@ -325,7 +325,7 @@ Style your images in seconds with intuitive tools, all while keeping your data s
             <h4>Discover My Story</h4>
             <p>
          I’m a passionate and versatile <b>Graphic Designer, UI/UX Designer, Technical Writer, 
-          and Web Developer</b> with a strong focus on creating visually appealing, user-friendly, 
+          and Web Developer</b> with a strong focus on creating visually appealing,
           and responsive digital experiences. Combining creativity with technical expertise to design 
           engaging interfaces, develop modern web applications, and accurate technical documentation. 
           I contribute to innovative projects that enhance user experience, improve accessibility, and 
