@@ -17,6 +17,37 @@ export default function Services() {
       <div className="services-grid"data-aos="fade-in"data-aos-duration="1000">
         
         <div className="service-card">
+            <FaCode className="service-icon" />
+          <h3>Web Development</h3>
+          <p>
+            Building fast, responsive, and accessible web interfaces using modern frontend technologies.
+          </p>
+          <ul className="skills-list">
+            <li>React Development</li>
+            <li>HTML / CSS / JavaScript</li>
+            <li>Responsive Design</li>
+            <li> Landing page</li>
+            <li>Cloud-Native & DevOps Technologies: Kubernetes and Docker</li>
+          </ul>
+        </div>
+
+        <div className="service-card">
+  <FaPenNib  className="service-icon" />
+  <h3>Technical Writing</h3>
+  <p>
+    Creating clear, structured, and developer-focused documentation that helps
+    users understand complex systems, APIs, and software workflows.
+  </p>
+  <ul className="skills-list">
+    <li>API and developer documentation</li>
+    <li>Open-source documentation contributions</li>
+    <li>Tutorials and how-to guides</li>
+    <li>Open-source documentation</li>
+    <li>Documentation for cloud-native technologies</li>
+  </ul>
+</div>
+
+        <div className="service-card">
             <FiLayout className="service-icon" />
           <h3>UI/UX Design</h3>
           <p>
@@ -48,37 +79,6 @@ export default function Services() {
             <li>NFT digital art</li>
           </ul>
         </div>
-
-        <div className="service-card">
-            <FaCode className="service-icon" />
-          <h3>Frontend Development</h3>
-          <p>
-            Building fast, responsive, and accessible web interfaces using modern frontend technologies.
-          </p>
-          <ul className="skills-list">
-            <li>React Development</li>
-            <li>HTML / CSS / JavaScript</li>
-            <li>Responsive Design</li>
-            <li> Landing page</li>
-            <li>Cloud-Native & DevOps Technologies: Kubernetes and Docker</li>
-          </ul>
-        </div>
-
-        <div className="service-card">
-  <FaPenNib  className="service-icon" />
-  <h3>Technical Writing</h3>
-  <p>
-    Creating clear, structured, and developer-focused documentation that helps
-    users understand complex systems, APIs, and software workflows.
-  </p>
-  <ul className="skills-list">
-    <li>API and developer documentation</li>
-    <li>Open-source documentation contributions</li>
-    <li>Tutorials and how-to guides</li>
-    <li>Open-source documentation</li>
-    <li>Documentation for cloud-native technologies</li>
-  </ul>
-</div>
 
       </div>
     </section>

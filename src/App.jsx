@@ -103,8 +103,8 @@ function Portfolio() {
           <span className="name">Kelvin Uneze</span>
         </h1>
         <h3>
-          Visual Artist <br />
-          Graphic Designer <br /> UI/UX Designer <br /> Technical Writer <br />Frontend Developer
+          Web Developer <br />
+          Technical Writer <br /> UI/UX Designer <br /> Graphic Designer 
         </h3>
       </section>
 
@@ -122,6 +122,10 @@ function Portfolio() {
         <div className="skills-section">
           <h2>Skills</h2>
           <div className="skills-container"data-aos="fade-up"data-aos-duration="700">
+            <div className="skill-box">Cloud-Native & DevOps</div>
+            <div className="skill-box">Kubernetes</div>
+            <div className="skill-box">Technical Writing</div>
+            <div className="skill-box">Docker</div>
             <div className="skill-box">Digital Art</div>
             <div className="skill-box">Logo Design</div>
             <div className="skill-box">Product Design</div>
@@ -133,10 +137,6 @@ function Portfolio() {
             <div className="skill-box">JavaScript</div>
             <div className="skill-box">Helm</div>
             <div className="skill-box">GitHub Actions</div>
-            <div className="skill-box">Cloud-Native & DevOps</div>
-            <div className="skill-box">Kubernetes</div>
-            <div className="skill-box">Technical Writing</div>
-            <div className="skill-box">Docker</div>
             <div className="skill-box">Figma</div>
             <div className="skill-box">CorelDraw</div>
             <div className="skill-box">Adobe Photoshop</div>
@@ -152,6 +152,8 @@ function Portfolio() {
               ["photoshop.webp", ""],
               ["ai.webp", ""],
               ["vs.webp", ""],
+              ["Kubernetes.svg", ""],
+              ["docker.png", ""],
             ].map(([img, name], i) => (
     <div className="image-circle" key={i}>
       <img
@@ -267,7 +269,6 @@ Style your images in seconds with intuitive tools, all while keeping your data s
               <span>Figma</span>
               <span>React</span>
               <span>Javascript</span>
-              <span>evn</span>
             </div>
             <div className="buttons">
               <a
@@ -323,14 +324,13 @@ Style your images in seconds with intuitive tools, all while keeping your data s
             <h2>About</h2>
             <h4>Discover My Story</h4>
             <p>
-                       I’m a passionate and versatile <b>Graphic Designer, 
-          UI/UX Designer, Technical Writer and Frontend Developer</b> {}
-         with a strong focus on creating visually appealing, 
-         user-friendly, and responsive digital experiences, 
-         leveraging artistic and design talents in contributing 
-         to innovative, visually stunning projects in a dynamic
-          creative environment by crafting engaging visuals 
-          that enhance user experience and brand perception.
+         I’m a passionate and versatile <b>Graphic Designer, UI/UX Designer, Technical Writer, 
+          and Web Developer</b> with a strong focus on creating visually appealing, user-friendly, 
+          and responsive digital experiences. Combining creativity with technical expertise to design 
+          engaging interfaces, develop modern web applications, and accurate technical documentation. 
+          I contribute to innovative projects that enhance user experience, improve accessibility, and 
+          deliver scalable DevOps solutions.
+
             </p>
           </div>
 
