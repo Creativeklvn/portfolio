@@ -110,7 +110,8 @@ function Portfolio() {
 
       <section id="section-three">
         <h3>
-          I blend creativity with technical expertise to build products that are both visually appealing and highly functional.
+          I blend creativity with technical expertise to build products that are both 
+          visually appealing and highly functional.
         </h3>
       </section>
 
@@ -126,6 +127,8 @@ function Portfolio() {
             <div className="skill-box">Kubernetes</div>
             <div className="skill-box">Technical Writing</div>
             <div className="skill-box">Docker</div>
+             <div className="skill-box">GitOps</div>
+            <div className="skill-box">GitHub Actions</div>
             <div className="skill-box">Digital Art</div>
             <div className="skill-box">Logo Design</div>
             <div className="skill-box">Product Design</div>
@@ -136,7 +139,6 @@ function Portfolio() {
             <div className="skill-box">HTML</div>
             <div className="skill-box">JavaScript</div>
             <div className="skill-box">Helm</div>
-            <div className="skill-box">GitHub Actions</div>
             <div className="skill-box">Figma</div>
             <div className="skill-box">CorelDraw</div>
             <div className="skill-box">Adobe Photoshop</div>
@@ -153,6 +155,7 @@ function Portfolio() {
               ["ai.webp", ""],
               ["vs.webp", ""],
               ["Kubernetes.svg", ""],
+              ["gitops.png", ""],
               ["docker.png", ""],
             ].map(([img, name], i) => (
     <div className="image-circle" key={i}>
@@ -176,31 +179,6 @@ function Portfolio() {
         </p>
 
         <div className="projects-container">
-          <div className="project-card"data-aos="flip-right"data-aos-duration="200">
-            <div className="banner">
-                                            <img 
-      src={`${process.env.PUBLIC_URL}/images/ba.jpg`} 
-      alt="bank (img)" 
-    />
-            </div>
-            <h2>Internet Banking</h2>
-            <p className="desc">A fintech app built for internet banking.</p>
-            <div className="tags">
-              <span>HTML</span>
-              <span>Prototype</span>
-              <span>CSS</span>
-              <span>Figma</span>
-              <span>JavaScript</span>
-            </div>
-            <div className="buttons">
-              <a
-                href="https://www.figma.com/proto/v2C4ZcTA90f13NNMlpYop3/Untitled?page-id=0%3A1&node-id=90-31&p=f&viewport=375%2C387%2C0.11&t=toLqogNKDjgQoCBv-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=90%3A26"
-                className="live"
-              >
-                View project
-              </a>
-            </div>
-          </div>
 
 <div className="project-card"data-aos="flip-right"data-aos-duration="400">
             <div className="banner">
@@ -227,6 +205,59 @@ function Portfolio() {
               </a>
             </div>
           </div>
+
+          <div className="project-card"data-aos="flip-right"data-aos-duration="200">
+            <div className="banner">
+                                            <img 
+      src={`${process.env.PUBLIC_URL}/images/ba.jpg`} 
+      alt="bank (img)" 
+    />
+            </div>
+            <h2>Internet Banking</h2>
+            <p className="desc">A fintech app built for internet banking.</p>
+            <div className="tags">
+              <span>HTML</span>
+              <span>Prototype</span>
+              <span>CSS</span>
+              <span>Figma</span>
+              <span>JavaScript</span>
+            </div>
+            <div className="buttons">
+              <a
+                href="https://www.figma.com/proto/v2C4ZcTA90f13NNMlpYop3/Untitled?page-id=0%3A1&node-id=90-31&p=f&viewport=375%2C387%2C0.11&t=toLqogNKDjgQoCBv-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=90%3A26"
+                className="live"
+              >
+                View project
+              </a>
+            </div>
+          </div>
+
+
+       <div className="project-card"data-aos="flip-right"data-aos-duration="600">
+            <div className="banner">
+                              <img 
+      src={`${process.env.PUBLIC_URL}/images/star.jpg`} 
+      alt="Starlife movies (img)" 
+    />
+            </div>
+            <h2>Starlife Movies</h2>
+            <p className="desc">
+              A web app that lets users discover trending movies, cartoons, TV series, and watch trailers.
+            </p>
+            <div className="tags">
+              <span>Entertainment website</span>
+              <span>React</span>
+            </div>
+            <div className="buttons">
+              <a
+                href="https://starlifemovies.vercel.app/"
+                className="live"
+              >
+                Visit project
+              </a>
+            </div>
+          </div>
+
 
           <div className="project-card"data-aos="flip-right"data-aos-duration="600">
             <div className="banner">
@@ -280,30 +311,7 @@ Style your images in seconds with intuitive tools, all while keeping your data s
             </div>
           </div>
 
-          <div className="project-card"data-aos="flip-right"data-aos-duration="600">
-            <div className="banner">
-                              <img 
-      src={`${process.env.PUBLIC_URL}/images/star.jpg`} 
-      alt="Starlife movies (img)" 
-    />
-            </div>
-            <h2>Starlife Movies</h2>
-            <p className="desc">
-              A web app that lets users discover trending movies, cartoons, TV series, and watch trailers.
-            </p>
-            <div className="tags">
-              <span>Entertainment website</span>
-              <span>React</span>
-            </div>
-            <div className="buttons">
-              <a
-                href="https://starlifemovies.vercel.app/"
-                className="live"
-              >
-                Visit project
-              </a>
-            </div>
-          </div>
+   
         </div>
         
       </section>
@@ -324,12 +332,17 @@ Style your images in seconds with intuitive tools, all while keeping your data s
             <h2>About</h2>
             <h4>Discover My Story</h4>
             <p>
-         I’m a passionate and versatile <b>Graphic Designer, UI/UX Designer, Technical Writer, 
-          and Web Developer</b> with a strong focus on creating visually appealing,
+         I’m a passionate and versatile <b>Web Developer, Technical Writer, UI/UX Designer,
+          and Graphic Designer</b> with a strong focus on creating visually appealing,
           and responsive digital experiences. Combining creativity with technical expertise to design 
-          engaging interfaces, develop modern web applications, and accurate technical documentation. 
-          I contribute to innovative projects that enhance user experience, improve accessibility, and 
-          deliver scalable DevOps solutions.
+          engaging interfaces, develop modern web applications, and create accurate technical documentation. 
+          I actively contribute to open-source projects, including documentation and development within 
+          the Kubernetes and KubeStellar ecosystems, helping improve technical documentation, developer 
+          resources, and community-driven initiatives.
+
+My technical interests span cloud-native technologies, Kubernetes, DevOps, Linux, containerization, 
+distributed systems, infrastructure automation, and modern web development. I'm passionate about exploring 
+emerging technologies, contributing to open-source software, and building scalable, secure, and developer-centric solutions.
 
             </p>
           </div>
@@ -395,7 +408,8 @@ Style your images in seconds with intuitive tools, all while keeping your data s
 
       <section id="section-seven">
         <div className="end">
-          <p>Copyright © 2026 Kelvin Uneze (All Rights Reserved)</p>
+          
+          <p>  © {new Date().getFullYear()}  Kelvin Uneze (All Rights Reserved)</p>
         </div>
       </section>
     </main>
