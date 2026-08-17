@@ -325,6 +325,369 @@ Style your images in seconds with intuitive tools, all while keeping your data s
         <img id="lightbox-img" src="" alt="lightbox" />
       </div>
 
+
+<section className="open-source" id="open-source">
+  <div className="open-source-container">
+    <div className="section-heading">
+      <h2>Open Source</h2>
+      <p>Merged upstream work</p>
+    </div>
+
+    <div className="pr-grid">
+
+      {/* Kubernetes PR #56252 */}
+      <article className="pr-card">
+        <div className="pr-card-header">
+          <span className="pr-project">Kubernetes</span>
+          <img
+            src="/images/kubernetes-logo.png"
+            alt="Kubernetes logo"
+            className="pr-logo"
+          />
+        </div>
+
+        <h3>PR #56252</h3>
+
+        <p>
+          Restructured the CertificateSigningRequest documentation,
+          added a YAML manifest-based CSR workflow, clarified
+          signer-specific valid usages, and cross-referenced a
+          hands-on client-certificate tutorial.
+        </p>
+
+        <a
+          href="https://github.com/kubernetes/website/pull/56252"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View PR →
+        </a>
+      </article>
+
+      {/* Kubernetes PR #56421 */}
+      <article className="pr-card">
+        <div className="pr-card-header">
+          <span className="pr-project">Kubernetes</span>
+          <img
+            src="/images/kubernetes-logo.png"
+            alt="Kubernetes logo"
+            className="pr-logo"
+          />
+        </div>
+
+        <h3>PR #56421</h3>
+
+        <p>
+          Added a "See also" reference linking the Gateway API
+          documentation to the official Gateway API TLS Guide,
+          helping readers find HTTPS and TLS listener configuration
+          guidance.
+        </p>
+
+        <a
+          href="https://github.com/kubernetes/website/pull/56421"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View PR →
+        </a>
+      </article>
+
+      {/* Kubernetes PR #54858 */}
+      <article className="pr-card">
+        <div className="pr-card-header">
+          <span className="pr-project">Kubernetes</span>
+          <img
+            src="/images/kubernetes-logo.png"
+            alt="Kubernetes logo"
+            className="pr-logo"
+          />
+        </div>
+
+        <h3>PR #54858</h3>
+
+        <p>
+          Fixed a broken readinessProbe example by updating the
+          command to run through <code>/bin/sh -c</code>, ensuring
+          it works reliably across containers where cat is not
+          directly on PATH.
+        </p>
+
+        <a
+          href="https://github.com/kubernetes/website/pull/54858"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View PR →
+        </a>
+      </article>
+
+      {/* Kubernetes PR #55998 */}
+      <article className="pr-card">
+        <div className="pr-card-header">
+          <span className="pr-project">Kubernetes</span>
+          <img
+            src="/images/kubernetes-logo.png"
+            alt="Kubernetes logo"
+            className="pr-logo"
+          />
+        </div>
+
+        <h3>PR #55998</h3>
+
+        <p>
+          Clarified the "Connecting Applications with Services"
+          tutorial by specifying that TLS keys and certificates must
+          be base64-encoded when written directly into a YAML manifest.
+        </p>
+
+        <a
+          href="https://github.com/kubernetes/website/pull/55998"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View PR →
+        </a>
+      </article>
+
+      {/* HAMi PR #737 */}
+      <article className="pr-card">
+        <div className="pr-card-header">
+          <span className="pr-project">Project HAMi</span>
+          <img
+            src="/images/hami-logo.png"
+            alt="Project HAMi logo"
+            className="pr-logo"
+          />
+        </div>
+
+        <h3>PR #737</h3>
+
+        <p>
+          Expanded Lab 1 to support AWS EC2 GPU instances alongside the
+          existing Google Cloud setup, including provider-specific tabs,
+          AWS CLI provisioning, version compatibility guidance, and
+          kernel configuration fixes.
+        </p>
+
+        <a
+          href="https://github.com/Project-HAMi/website/pull/737"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View PR →
+        </a>
+      </article>
+
+      {/* HAMi PR #757 */}
+      <article className="pr-card">
+        <div className="pr-card-header">
+          <span className="pr-project">Project HAMi</span>
+          <img
+            src="/images/hami-logo.png"
+            alt="Project HAMi logo"
+            className="pr-logo"
+          />
+        </div>
+
+        <h3>PR #757</h3>
+
+        <p>
+          Updated the GPU partitioning Lab 3 documentation to fix the
+          AWS EC2 workflow, adding steps to copy example YAML manifests
+          from the local machine to the EC2 instance using scp and
+          clarifying AWS and GCP workflow differences.
+        </p>
+
+        <a
+          href="https://github.com/Project-HAMi/website/pull/757"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View PR →
+        </a>
+      </article>
+
+      {/* HAMi PR #710 */}
+      <article className="pr-card">
+        <div className="pr-card-header">
+          <span className="pr-project">Project HAMi</span>
+          <img
+            src="/images/hami-logo.png"
+            alt="Project HAMi logo"
+            className="pr-logo"
+          />
+        </div>
+
+        <h3>PR #710</h3>
+
+        <p>
+          Improved terminology consistency in HAMi's core architecture
+          documentation by standardizing the "in-container resource
+          control" wording across current and versioned documentation.
+        </p>
+
+        <a
+          href="https://github.com/Project-HAMi/website/pull/710"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View PR →
+        </a>
+      </article>
+
+
+      {/* KubeStellar PR #2709 */}
+      <article className="pr-card">
+        <div className="pr-card-header">
+          <span className="pr-project">KubeStellar</span>
+          <img
+            src="/images/kubestellar-logo.png"
+            alt="KubeStellar logo"
+            className="pr-logo"
+          />
+        </div>
+
+        <h3>PR #2709</h3>
+
+        <p>
+          Clarified the AI missions setup guide by specifying the
+          exact options to select when creating a new mission and
+          standardizing capitalization of "Kubernetes".
+        </p>
+
+        <a
+          href="https://github.com/kubestellar/kubestellar/pull/2709"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View PR →
+        </a>
+      </article>
+
+
+      {/* KubeStellar PR #2256 */}
+      <article className="pr-card">
+        <div className="pr-card-header">
+          <span className="pr-project">KubeStellar</span>
+          <img
+            src="/images/kubestellar-logo.png"
+            alt="KubeStellar logo"
+            className="pr-logo"
+          />
+        </div>
+
+        <h3>PR #2256</h3>
+
+        <p>
+          Corrected a mislabeled runbook name from
+          "install-kubestellar" to "install-kubestellar-controller"
+          to accurately reflect that it installs the KubeStellar
+          controller.
+        </p>
+
+        <a
+          href="https://github.com/kubestellar/kubestellar/pull/2256"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View PR →
+        </a>
+      </article>
+
+      {/* KubeStellar PR #2252 */}
+      <article className="pr-card">
+        <div className="pr-card-header">
+          <span className="pr-project">KubeStellar</span>
+          <img
+            src="/images/kubestellar-logo.png"
+            alt="KubeStellar logo"
+            className="pr-logo"
+          />
+        </div>
+
+        <h3>PR #2252</h3>
+
+        <p>
+          Updated the KubeStellar documentation to accurately
+          identify the controller installation runbook.
+        </p>
+
+        <a
+          href="https://github.com/kubestellar/kubestellar/pull/2252"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View PR →
+        </a>
+      </article>
+
+      {/* KubeStellar PR #2687 */}
+      <article className="pr-card">
+        <div className="pr-card-header">
+          <span className="pr-project">KubeStellar</span>
+          <img
+            src="/images/kubestellar-logo.png"
+            alt="KubeStellar logo"
+            className="pr-logo"
+          />
+        </div>
+
+        <h3>PR #2687</h3>
+
+        <p>
+          Fixed CONTRIBUTING.md by restoring the correct existing
+          markdownlint command reference.
+        </p>
+
+        <a
+          href="https://github.com/kubestellar/kubestellar/pull/2687"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View PR →
+        </a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+
+<section className="portfolio" id="portfolio">
+  <div className="portfolio-container">
+    <h2>Resume</h2>
+
+
+    <div className="resume-card">
+      <div>
+        <h3>Kelvin Uneze</h3>
+        <p>View or download my resume to learn more about my experience and skills.</p>
+      </div>
+
+      <div className="resume-actions">
+        <a
+          href="/Kelvin-Uneze-Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="resume-btn"
+        >
+          View
+        </a>
+
+        <a
+          href="/Kelvin-Uneze-Resume.pdf"
+          download
+          className="resume-btn secondary"
+        >
+          Download
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
       <section id="section-five">
         <div className="about-container"data-aos="fade-up"data-aos-duration="700">
 
@@ -372,7 +735,7 @@ emerging technologies, contributing to open-source software, and building scalab
     />
             </div>
           </a>
-          <a href="https://www.instagram.com/kelvinuneze">
+          <a href="https://www.instagram.com/kelvin.uneze">
             <div className="reach-out">
                   <img 
       src={`${process.env.PUBLIC_URL}/images/insta.png`} 
