@@ -557,7 +557,7 @@ Style your images in seconds with intuitive tools, all while keeping your data s
         </p>
 
         <a
-          href="https://github.com/kubestellar/kubestellar/pull/2709"
+          href="https://github.com/kubestellar/docs/pull/2709"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -580,14 +580,13 @@ Style your images in seconds with intuitive tools, all while keeping your data s
         <h3>PR #2256</h3>
 
         <p>
-          Corrected a mislabeled runbook name from
-          "install-kubestellar" to "install-kubestellar-controller"
-          to accurately reflect that it installs the KubeStellar
-          controller.
+          Added a GitHub Actions workflow to automatically run 
+          markdownlint on Markdown and MDX files during pull requests 
+          targeting the main branch.
         </p>
 
         <a
-          href="https://github.com/kubestellar/kubestellar/pull/2256"
+          href="https://github.com/kubestellar/docs/pull/2494"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -614,7 +613,7 @@ Style your images in seconds with intuitive tools, all while keeping your data s
         </p>
 
         <a
-          href="https://github.com/kubestellar/kubestellar/pull/2252"
+          href="https://github.com/kubestellar/console-kb/pull/2252"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -641,7 +640,7 @@ Style your images in seconds with intuitive tools, all while keeping your data s
         </p>
 
         <a
-          href="https://github.com/kubestellar/kubestellar/pull/2687"
+          href="https://github.com/kubestellar/docs/pull/2687"
           target="_blank"
           rel="noopener noreferrer"
         >
