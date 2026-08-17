@@ -461,7 +461,7 @@ Style your images in seconds with intuitive tools, all while keeping your data s
           />
         </div>
 
-        <h3>PR #737</h3>
+        <h3>PR #737 Open</h3>
 
         <p>
           Expanded Lab 1 to support AWS EC2 GPU instances alongside the
@@ -490,7 +490,7 @@ Style your images in seconds with intuitive tools, all while keeping your data s
           />
         </div>
 
-        <h3>PR #757</h3>
+        <h3>PR #757 Open</h3>
 
         <p>
           Updated the GPU partitioning Lab 3 documentation to fix the
